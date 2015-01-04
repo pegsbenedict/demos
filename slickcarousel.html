@@ -1,0 +1,48 @@
+ <html>
+ <head>
+ <title>Slick Carousel</title>
+  <link rel="stylesheet" type="text/css" href="slickcarousel/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slickcarousel/slick-mod.css">
+ </head>
+ <body>
+ <div class="slider slick-initialized slick-slider slick-carousel">
+    <div class="slick-list draggable" tabindex="0">
+        <div class="slick-track">
+            <div class="slick-slide">
+                <img src="img/slider1-mission.jpg" alt="slide 1" />
+            <!--<div class="slider-caption">With expertise in healthcare, education, employment and more. Asian Human Services helps tens of thousands of people every year, from 55 different countries and in 25 different languages to fully participate, prosper and thrive in our community
+            </div>-->
+            </div>
+            <div class="slick-slide">
+                <img src="img/slider2-funders.jpg" alt="slide 2" />
+            <!--<div class="slider-caption">Copy addressing our funders
+            </div>-->
+            </div>
+            <div class="slick-slide">
+                <img src="img/slider3-americorps.jpg" alt="slide 3" />
+            <!--<div class="slider-caption">Copy addressing potential AmeriCorps members
+            </div>-->
+            </div>
+        </div>
+    </div>
+    <button type="button" data-role="none" class="slick-prev" style="display:block;">Previous</button>
+    <button type="button" data-role="none" class="slick-next" style="display:block;">Next</button>
+  </div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+  $('.slick-carousel').slick({
+    autoplay: true,
+    autoplaySpeed: 2250,
+    draggable: true,
+    fade: true,
+    infinite: true,
+    pauseOnHover: true,
+
+  });
+});</script>
+</body>
+</html>
